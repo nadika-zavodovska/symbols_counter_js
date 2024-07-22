@@ -1,0 +1,31 @@
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 350px;
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid #fff;
+    font-size: 24px;
+    padding: 10px 5px 10px 10px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+.output{
+    position: absolute;
+    right: 0;
+    top: 16px;
+    font-size: 20px;
+    color: #fff;
+}
